@@ -29,18 +29,474 @@
 
     <main class="flex flex-col justify-center items-center">
 
-        <div class="w-[1800px] h-[640px] flex rounded-[12px]">
-            <div class="flex flex-col justify-center bg-[#E7FAFE]">
-                <button class="flex flex-row gap-[13px] px-[20px] py-[10px] border-none rounded-full shadow-2xl bg-[#FFFFFF]">
-                    <img src="img/latter.svg"> Hot Recipes
-                </button>
+        <div class="flex w-[1640px] h-[640px] mt-10">
 
-                <h1>Spicy delicious</h1>
+            <div class="flex flex-col rounded-tl-[12px] rounded-bl-[12px] justify-center bg-[#E7FAFE] flex-1 p-[50px]">
+                <!-- button -->
+                <div class="flex flex-row w-[168px] h-[45px] gap-[13px] px-[20px] py-[10px] border-none rounded-full shadow-2xl bg-[#FFFFFF]">
+                    <img src="img/latter.svg">
+                    <p>Hot Recipes</p>
+                </div>
+                <!-- button End --> 
+                
+                <p class="font-semibold mt-[32px] leading-[75px] text-[64px]">Spicy delicious <br> chicken wings</p>
+
+                <p class="mt-[24px] text-[#5C6466]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, assumenda libero obcaecati totam, eveniet tempora excepturi commodi maiores vitae magni amet corrupti reprehenderit blanditiis. Nobis amet sint sunt ratione nemo!</p>
+                
+                <div class="flex flex-row items-center gap-4 mt-[30px]">
+
+                    <div class="flex flex-row w-[154px] h-[45px] gap-[13px] px-[20px] py-[10px] border-none rounded-full bg-[#DBEEF1]">
+                    <img class="w-[18px] h-[18px] mt-[4px]" src="img/time.svg">
+                    <p>30 Minutes</p>
+                    </div>
+                    
+
+                    <div class="flex flex-row w-[140px] h-[45px] gap-[13px] px-[20px] py-[10px] border-none rounded-full bg-[#DBEEF1]">
+                    <img class="w-[24px] h-[24px] mt-[1px]" src="img/ForkKnife.svg">
+                    <p>Chicken</p>
+                    </div>
+                
+                </div>
+
+                <div class="flex flex-row justify-between mt-[104px]">
+
+                    <div class="flex gap-4">
+                        <div class="w-[50px] h-[50px]"><img class="w-full h-full rounded-full" src="img/john.png"></div>
+                        <div class="flex flex-col">
+                        <p class="font-bold text-[20px]">John Smith</p>
+                        <span class="text-[#5C6466]">15 March 2022</span>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center w-[200px] cursor-pointer h-[60px] rounded-[16px] bg-[#000000]">
+                        <span class="text-[#FFFFFF] pl-[37px]">View Recipes</span>
+                        <div class="w-[24px] h-[24px] ml-[17px]">
+                        <img class="w-full h-full" src="img/PlayCircle.png">
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
-            <div>
+            <div class="flex flex-col justify-center">
+                <div  class="w-[720px] h-[640px]">
+                <img class="w-[100%] h-[100%] rounded-tr-[12px] rounded-br-[12px]" src="img/food.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col w-[1640px] h-[440px] mt-[160px]">
+
+            <div class="flex flex-row justify-between items-center">
+                <div class="text-[48px] font-semibold">Categories</div>
+                <div class="px-[27px] py-[20px] font-semibold rounded-2xl bg-[#E7FAFE]">View All categories</div>
+            </div>
+
+
+            <div class="flex flex-row gap-[100px] mt-[130px]">
+
+                <div class="flex justify-center shadow-md items-center pb-[30px] flex-col w-[200px] h-[160px] bg-linear-to-b from-[] to-[#7082461A] rounded-[30px]">
+                    
+                    <div class="w-[100px] h-[100px] relative">
+                        <img class="w-full h-full z-20 absolute bottom-[50px]" src="img/Breakfast.svg">
+                        <div><img class="blur z-10 absolute left-5 bottom-8" src="img/Breakfast.svg"></div>
+                    </div>
+
+                    <div>
+                        <p class="font-semibold text-[18px]">Breakfast</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center shadow-md items-center pb-[30px] flex-col w-[200px] h-[160px] bg-linear-to-b from-[] to-[#6cc63f1f] rounded-[30px]">
+                    
+                    <div class="w-[100px] h-[100px] relative">
+                        <img class="w-full h-full z-20 absolute bottom-[50px]" src="img/vegan.svg">
+                        <div><img class="blur z-10 absolute left-5 bottom-8" src="img/vegan.svg"></div>
+                    </div>
+
+                    <div>
+                        <p class="font-semibold text-[18px]">Vegan</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center shadow-md items-center pb-[30px] flex-col w-[200px] h-[160px] bg-linear-to-b from-[] to-[#CC261B1A] rounded-[30px]">
+                    
+                    <div class="w-[100px] h-[100px] relative">
+                        <img class="w-full h-full z-20 absolute bottom-[50px]" src="img/meat.svg">
+                        <div><img class="blur z-10 absolute left-5 bottom-8" src="img/meat.svg"></div>
+                    </div>
+
+                    <div>
+                        <p class="font-semibold text-[18px]">Meat</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center shadow-md items-center pb-[30px] flex-col w-[200px] h-[160px] bg-linear-to-b from-[] to-[#F09E001A] rounded-[30px]">
+                    
+                    <div class="w-[100px] h-[100px] relative">
+                        <img class="w-full h-full z-20 absolute bottom-[50px]" src="img/dessert.svg">
+                        <div><img class="blur z-10 absolute left-5 bottom-8" src="img/dessert.svg"></div>
+                    </div>
+
+                    <div>
+                        <p class="font-semibold text-[18px]">Dessert</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center shadow-md items-center pb-[30px] flex-col w-[200px] h-[160px] bg-linear-to-b from-[] to-[#0000000D] rounded-[30px]">
+                    
+                    <div class="w-[100px] h-[100px] relative">
+                        <img class="w-full h-full z-20 absolute bottom-[50px]" src="img/lunch.svg">
+                        <div><img class="blur z-10 absolute left-5 bottom-8" src="img/lunch.svg"></div>
+                    </div>
+
+                    <div>
+                        <p class="font-semibold text-[18px]">Lunch</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center shadow-md items-center pb-[30px] flex-col w-[200px] h-[160px] bg-linear-to-b from-[] to-[#0000000D] rounded-[30px]">
+                    
+                    <div class="w-[100px] h-[100px] relative">
+                        <img class="w-full h-full z-20 absolute bottom-[50px]" src="img/Chocolate.svg">
+                        <div><img class="blur z-10 absolute left-5 bottom-8" src="img/Chocolate.svg"></div>
+                    </div>
+
+                    <div>
+                        <p class="font-semibold text-[18px]">Chocolate</p>
+                    </div>
+                </div>
 
             </div>
+
+            
+                
+            <div class="flex flex-col justify-center items-center gap-6 mt-[183px]">
+                <div>
+                    <span class="text-[48px] font-semibold">Simple and tasty recipes</span>
+                </div>
+                <div class="text-[#666666] text-[18px] flex flex-col items-center">
+                    <span>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut </span>
+                
+                    <span>labore et dolore magna aliqut enim ad minim</span>
+                </div>
+            </div>
+                
+                <div class="grid grid-cols-3 w-[1640px] justify-center pl-[45px]">
+                    
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/fastfood.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>Big and Juicy Wagyu Beef</span>
+                            <span>Cheeseburger</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Snack</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/2.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart-none.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>Fresh Lime Roasted Salmon with</span>
+                            <span>Ginger Sauce</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Fish</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/3.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart-none.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>Strawberry Oatmeal Pancake</span>
+                            <span>with Honey Syrup</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Snack</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/4.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>Fresh and Healthy Mixed</span>
+                            <span>Mayonnaise Salad</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Healthy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/5.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart-none.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>Chicken Meatballs with Cream</span>
+                            <span>Cheese</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Meat</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px]">
+ 
+                            <img class="w-full h-full" src="img/6.png">
+
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/7.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>Fruity Pancake with Orange &</span>
+                            <span>Blueberry</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Sweet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/8.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart-none.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>The Best Easy One Pot Chicken</span>
+                            <span>and Rice</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Snack</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col justify-center px-[26px] w-[500px] h-[490px] mt-[96px] rounded-[30px] bg-linear-to-b from-[] to-[#E7F9FD]">
+
+                        <div class="w-[450px] h-[320px] relative">
+                            <img class="w-full h-full rounded-[20px]" src="img/9.png">
+                            <img class="absolute right-[20px] top-[20px] w-[56px] h-[56px]" src="img/icon-heart-none.svg">
+                        </div>
+
+                        <div class="flex flex-col mt-[24px] text-[24px] font-semibold">
+                            <span>The Creamiest Creamy Chicken</span>
+                            <span>and Bacon Pasta</span>
+                        </div>
+
+                        <div class="flex flex-row mt-[24px] pb-[32px]">
+
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/Timer.svg">
+                                <p>30 Minutes</p>
+                            </div>
+                        
+                            <div class="flex flex-row w-[160px] h-[45px] gap-[13px] border-none">
+                                <img class="w-[24px] h-[24px]" src="img/ForkKnife.svg">
+                                <p>Noodles</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- shef -->
+
+
+                <div class="flex w-[1640px] h-[640px] mt-[143px]">
+
+                        <div class="flex flex-col rounded-tl-[12px] rounded-bl-[12px] justify-center bg-[#FFFFFF] flex-1">
+                
+                        <p class="font-semibold mt-[32px] leading-[75px] text-[64px]">Everyone can be a <br> chef in their own kitchen</p>
+
+                        <p class="mt-[24px] text-[#5C6466]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqut enim <br> ad minim </p>
+                
+
+                    <div class="flex flex-row justify-between mt-[104px]">
+
+
+                        <div class="flex items-center w-[200px] cursor-pointer h-[60px] rounded-[16px] bg-[#000000]">
+                            <span class="text-[#FFFFFF] pl-[50px]">View Recipes</span>
+                        </div>
+
+                        </div>
+
+                        </div>
+                        <div class="flex flex-col justify-center">
+                            <div  class="w-[720px] h-[640px]">
+                            <img class="w-[100%] h-[100%] rounded-tr-[12px] rounded-br-[12px]" src="img/shef.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-[1640px] h-[640px] flex flex-col rounded-[60px] ml-[30px] mt-[73px] bg-[#E7F9FD]">
+
+                    <div class="flex flex-col justify-center items-center gap-[24px] mt-[80px]">
+                        <p class="text-[48px] font-semibold">Deliciousness to your inbox</p>
+                        <p class="text-[18px] text-center text-[#5C6465]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqut enim ad minim</p>
+                    </div>
+                    
+                    
+
+                   <div class="flex flex-row px-2.5 relative left-[35%] mt-[64px] py-[10px] rounded-[24px] w-[500px] h-[100px] bg-[#FFFFFF]">
+
+                        <div class="flex justify-between flex-row flex-1">
+                            <input placeholder="Your email address..." type="email" />
+
+                            <div class="flex items-center w-[200px] cursor-pointer h-[60px] rounded-[16px] bg-[#000000]">
+                                <span class="text-[#FFFFFF] pl-[65px]">Subscribe</span>
+                            </div>
+                        </div>
+
+                   </div>
+
+
+
+                    <div class="flex flex-row w-[400px] h-[400px]">
+                        <img class="w-[400px] h-[400px] pb-[138px]" src="img/salad.png">
+                        <img class="w-[400px] h-[400px] pb-[140px] ml-[930px]" src="img/plate.png">
+                    </div>
+                </div>
+
+
+                <div class="flex flex-row justify-between items-center mt-[176px] mb-[48px]">
+
+                    <div class="flex flex-col gap-[16px]">
+                        <span class="font-family text-[24px] font-semibold">Foodieland<span>.</span></span>
+                        <p class="text-[#666666] text-[16px]">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
+                    </div>
+
+
+                    
+                    <div class="flex flex-row justify-between gap-[60px] *:font-medium *:cursor-pointer">
+                        <div>Recipes</div>
+                        <div>Blog</div>
+                        <div>Contact</div>
+                        <div>About us</div>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-row justify-center items-center w-[1640px]">
+                    <img class=" mb-[48px]" src="img/Vector (footer).svg">
+                </div>
+
+                <div class="flex flex-row justify-end gap-[520px]  items-center pb-[48px]">
+                    <div class="text-[18px]">
+                        <p>© 2020 Flowbase. Powered by <span class="text-[#FF8171]">Webflow</span></p>
+                    </div>
+
+                    <div class="flex flex-row gap-10 *:cursor-pointer">
+                        <span><img src="img/facebook.svg"></span>
+                        <span><img src="img/bird.svg"></span>
+                        <span><img src="img/instagram.svg"></span>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </main>
